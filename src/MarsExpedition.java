@@ -72,7 +72,7 @@ public class MarsExpedition {
                     snack + " onboard for your flight.");
 
 
-            input.close();
+
         }
     }
 

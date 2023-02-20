@@ -29,7 +29,7 @@ public class Mars {
             System.out.println("Error");
         }
 
-//        new MarsExpedition();
+        new MarsExpedition();
 
       new FindingsList();
 

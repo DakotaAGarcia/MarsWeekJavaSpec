@@ -47,9 +47,9 @@ public class FindingsList {
 
         System.out.println("Which fossil data would you like to see?");
 
-        Scanner input = new Scanner(System.in);
+        Scanner input2 = new Scanner(System.in);
 
-        String fossilData = input.nextLine();
+        String fossilData = input2.nextLine();
 
         if (fossilData.equalsIgnoreCase("Bird")){
             System.out.println("Fossil 1: " + fossils.get("Bird"));
@@ -74,6 +74,6 @@ public class FindingsList {
 
         System.out.println("Supplies after return: " + specialSupplies);
 
-    input.close();
+    input2.close();
     }
 }
